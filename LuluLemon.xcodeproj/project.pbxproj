@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		684CDE47271DAD77008FB8F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE46271DAD77008FB8F6 /* AppDelegate.swift */; };
 		684CDE49271DAD77008FB8F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE48271DAD77008FB8F6 /* SceneDelegate.swift */; };
-		684CDE4B271DAD77008FB8F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE4A271DAD77008FB8F6 /* ViewController.swift */; };
 		684CDE4E271DAD77008FB8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684CDE4C271DAD77008FB8F6 /* Main.storyboard */; };
 		684CDE51271DAD77008FB8F6 /* CamachoLuluLemon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE4F271DAD77008FB8F6 /* CamachoLuluLemon.xcdatamodeld */; };
 		684CDE53271DAD79008FB8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684CDE52271DAD79008FB8F6 /* Assets.xcassets */; };
@@ -17,6 +16,14 @@
 		684CDE61271DAD79008FB8F6 /* CamachoLuluLemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE60271DAD79008FB8F6 /* CamachoLuluLemonTests.swift */; };
 		684CDE6B271DAD79008FB8F6 /* CamachoLuluLemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE6A271DAD79008FB8F6 /* CamachoLuluLemonUITests.swift */; };
 		684CDE6D271DAD79008FB8F6 /* CamachoLuluLemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE6C271DAD79008FB8F6 /* CamachoLuluLemonUITestsLaunchTests.swift */; };
+		684CDE81271DB746008FB8F6 /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE80271DB746008FB8F6 /* AddItemVC.swift */; };
+		684CDE83271DB75B008FB8F6 /* SortedListsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE82271DB75B008FB8F6 /* SortedListsVC.swift */; };
+		684CDE85271DB797008FB8F6 /* AddItemVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE84271DB797008FB8F6 /* AddItemVM.swift */; };
+		684CDE87271DB7A8008FB8F6 /* SortedListsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE86271DB7A8008FB8F6 /* SortedListsVM.swift */; };
+		684CDE8D271DB85B008FB8F6 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE8C271DB85B008FB8F6 /* APIHandler.swift */; };
+		684CDE8F271DB869008FB8F6 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE8E271DB869008FB8F6 /* DataBaseManager.swift */; };
+		684CDE99271DBECD008FB8F6 /* SortedLists+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE98271DBECD008FB8F6 /* SortedLists+CoreDataClass.swift */; };
+		684CDE9B271DBEF7008FB8F6 /* SortedLists+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CDE9A271DBEF7008FB8F6 /* SortedLists+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +44,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		684CDE43271DAD77008FB8F6 /* CamachoLuluLemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamachoLuluLemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		684CDE43271DAD77008FB8F6 /* LuluLemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuluLemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		684CDE46271DAD77008FB8F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		684CDE48271DAD77008FB8F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		684CDE4A271DAD77008FB8F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		684CDE4D271DAD77008FB8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		684CDE50271DAD77008FB8F6 /* CamachoLuluLemon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CamachoLuluLemon.xcdatamodel; sourceTree = "<group>"; };
 		684CDE52271DAD79008FB8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		684CDE55271DAD79008FB8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		684CDE57271DAD79008FB8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		684CDE5C271DAD79008FB8F6 /* CamachoLuluLemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamachoLuluLemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		684CDE5C271DAD79008FB8F6 /* LuluLemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuluLemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		684CDE60271DAD79008FB8F6 /* CamachoLuluLemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamachoLuluLemonTests.swift; sourceTree = "<group>"; };
-		684CDE66271DAD79008FB8F6 /* CamachoLuluLemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamachoLuluLemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		684CDE66271DAD79008FB8F6 /* LuluLemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuluLemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		684CDE6A271DAD79008FB8F6 /* CamachoLuluLemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamachoLuluLemonUITests.swift; sourceTree = "<group>"; };
 		684CDE6C271DAD79008FB8F6 /* CamachoLuluLemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamachoLuluLemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		684CDE80271DB746008FB8F6 /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
+		684CDE82271DB75B008FB8F6 /* SortedListsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedListsVC.swift; sourceTree = "<group>"; };
+		684CDE84271DB797008FB8F6 /* AddItemVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVM.swift; sourceTree = "<group>"; };
+		684CDE86271DB7A8008FB8F6 /* SortedListsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedListsVM.swift; sourceTree = "<group>"; };
+		684CDE8C271DB85B008FB8F6 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		684CDE8E271DB869008FB8F6 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		684CDE98271DBECD008FB8F6 /* SortedLists+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SortedLists+CoreDataClass.swift"; sourceTree = "<group>"; };
+		684CDE9A271DBEF7008FB8F6 /* SortedLists+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SortedLists+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +105,9 @@
 		684CDE44271DAD77008FB8F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				684CDE43271DAD77008FB8F6 /* CamachoLuluLemon.app */,
-				684CDE5C271DAD79008FB8F6 /* CamachoLuluLemonTests.xctest */,
-				684CDE66271DAD79008FB8F6 /* CamachoLuluLemonUITests.xctest */,
+				684CDE43271DAD77008FB8F6 /* LuluLemon.app */,
+				684CDE5C271DAD79008FB8F6 /* LuluLemonTests.xctest */,
+				684CDE66271DAD79008FB8F6 /* LuluLemonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,12 +115,13 @@
 		684CDE45271DAD77008FB8F6 /* CamachoLuluLemon */ = {
 			isa = PBXGroup;
 			children = (
-				684CDE46271DAD77008FB8F6 /* AppDelegate.swift */,
-				684CDE48271DAD77008FB8F6 /* SceneDelegate.swift */,
-				684CDE4A271DAD77008FB8F6 /* ViewController.swift */,
-				684CDE4C271DAD77008FB8F6 /* Main.storyboard */,
-				684CDE52271DAD79008FB8F6 /* Assets.xcassets */,
-				684CDE54271DAD79008FB8F6 /* LaunchScreen.storyboard */,
+				684CDE7F271DB6C4008FB8F6 /* CoreData */,
+				684CDE7E271DB6B0008FB8F6 /* Network */,
+				684CDE7D271DB6A9008FB8F6 /* Controllers */,
+				684CDE7C271DB695008FB8F6 /* ViewModels */,
+				684CDE7A271DB678008FB8F6 /* Storyboards & XIBs */,
+				684CDE79271DB668008FB8F6 /* DefaultDelegates */,
+				684CDE7B271DB685008FB8F6 /* Assets */,
 				684CDE57271DAD79008FB8F6 /* Info.plist */,
 				684CDE4F271DAD77008FB8F6 /* CamachoLuluLemon.xcdatamodeld */,
 			);
@@ -130,12 +145,74 @@
 			path = CamachoLuluLemonUITests;
 			sourceTree = "<group>";
 		};
+		684CDE79271DB668008FB8F6 /* DefaultDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				684CDE46271DAD77008FB8F6 /* AppDelegate.swift */,
+				684CDE48271DAD77008FB8F6 /* SceneDelegate.swift */,
+			);
+			path = DefaultDelegates;
+			sourceTree = "<group>";
+		};
+		684CDE7A271DB678008FB8F6 /* Storyboards & XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				684CDE54271DAD79008FB8F6 /* LaunchScreen.storyboard */,
+				684CDE4C271DAD77008FB8F6 /* Main.storyboard */,
+			);
+			path = "Storyboards & XIBs";
+			sourceTree = "<group>";
+		};
+		684CDE7B271DB685008FB8F6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				684CDE52271DAD79008FB8F6 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		684CDE7C271DB695008FB8F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				684CDE84271DB797008FB8F6 /* AddItemVM.swift */,
+				684CDE86271DB7A8008FB8F6 /* SortedListsVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		684CDE7D271DB6A9008FB8F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				684CDE80271DB746008FB8F6 /* AddItemVC.swift */,
+				684CDE82271DB75B008FB8F6 /* SortedListsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		684CDE7E271DB6B0008FB8F6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				684CDE8C271DB85B008FB8F6 /* APIHandler.swift */,
+				684CDE8E271DB869008FB8F6 /* DataBaseManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		684CDE7F271DB6C4008FB8F6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				684CDE98271DBECD008FB8F6 /* SortedLists+CoreDataClass.swift */,
+				684CDE9A271DBEF7008FB8F6 /* SortedLists+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		684CDE42271DAD77008FB8F6 /* CamachoLuluLemon */ = {
+		684CDE42271DAD77008FB8F6 /* LuluLemon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 684CDE70271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "CamachoLuluLemon" */;
+			buildConfigurationList = 684CDE70271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "LuluLemon" */;
 			buildPhases = (
 				684CDE3F271DAD77008FB8F6 /* Sources */,
 				684CDE40271DAD77008FB8F6 /* Frameworks */,
@@ -145,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = CamachoLuluLemon;
+			name = LuluLemon;
 			productName = CamachoLuluLemon;
-			productReference = 684CDE43271DAD77008FB8F6 /* CamachoLuluLemon.app */;
+			productReference = 684CDE43271DAD77008FB8F6 /* LuluLemon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		684CDE5B271DAD79008FB8F6 /* CamachoLuluLemonTests */ = {
+		684CDE5B271DAD79008FB8F6 /* LuluLemonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 684CDE73271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "CamachoLuluLemonTests" */;
+			buildConfigurationList = 684CDE73271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "LuluLemonTests" */;
 			buildPhases = (
 				684CDE58271DAD79008FB8F6 /* Sources */,
 				684CDE59271DAD79008FB8F6 /* Frameworks */,
@@ -163,14 +240,14 @@
 			dependencies = (
 				684CDE5E271DAD79008FB8F6 /* PBXTargetDependency */,
 			);
-			name = CamachoLuluLemonTests;
+			name = LuluLemonTests;
 			productName = CamachoLuluLemonTests;
-			productReference = 684CDE5C271DAD79008FB8F6 /* CamachoLuluLemonTests.xctest */;
+			productReference = 684CDE5C271DAD79008FB8F6 /* LuluLemonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		684CDE65271DAD79008FB8F6 /* CamachoLuluLemonUITests */ = {
+		684CDE65271DAD79008FB8F6 /* LuluLemonUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 684CDE76271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "CamachoLuluLemonUITests" */;
+			buildConfigurationList = 684CDE76271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "LuluLemonUITests" */;
 			buildPhases = (
 				684CDE62271DAD79008FB8F6 /* Sources */,
 				684CDE63271DAD79008FB8F6 /* Frameworks */,
@@ -181,9 +258,9 @@
 			dependencies = (
 				684CDE68271DAD79008FB8F6 /* PBXTargetDependency */,
 			);
-			name = CamachoLuluLemonUITests;
+			name = LuluLemonUITests;
 			productName = CamachoLuluLemonUITests;
-			productReference = 684CDE66271DAD79008FB8F6 /* CamachoLuluLemonUITests.xctest */;
+			productReference = 684CDE66271DAD79008FB8F6 /* LuluLemonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +286,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 684CDE3E271DAD77008FB8F6 /* Build configuration list for PBXProject "CamachoLuluLemon" */;
+			buildConfigurationList = 684CDE3E271DAD77008FB8F6 /* Build configuration list for PBXProject "LuluLemon" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +299,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				684CDE42271DAD77008FB8F6 /* CamachoLuluLemon */,
-				684CDE5B271DAD79008FB8F6 /* CamachoLuluLemonTests */,
-				684CDE65271DAD79008FB8F6 /* CamachoLuluLemonUITests */,
+				684CDE42271DAD77008FB8F6 /* LuluLemon */,
+				684CDE5B271DAD79008FB8F6 /* LuluLemonTests */,
+				684CDE65271DAD79008FB8F6 /* LuluLemonUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,10 +338,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				684CDE4B271DAD77008FB8F6 /* ViewController.swift in Sources */,
+				684CDE9B271DBEF7008FB8F6 /* SortedLists+CoreDataProperties.swift in Sources */,
 				684CDE47271DAD77008FB8F6 /* AppDelegate.swift in Sources */,
 				684CDE51271DAD77008FB8F6 /* CamachoLuluLemon.xcdatamodeld in Sources */,
 				684CDE49271DAD77008FB8F6 /* SceneDelegate.swift in Sources */,
+				684CDE81271DB746008FB8F6 /* AddItemVC.swift in Sources */,
+				684CDE99271DBECD008FB8F6 /* SortedLists+CoreDataClass.swift in Sources */,
+				684CDE83271DB75B008FB8F6 /* SortedListsVC.swift in Sources */,
+				684CDE8D271DB85B008FB8F6 /* APIHandler.swift in Sources */,
+				684CDE85271DB797008FB8F6 /* AddItemVM.swift in Sources */,
+				684CDE87271DB7A8008FB8F6 /* SortedListsVM.swift in Sources */,
+				684CDE8F271DB869008FB8F6 /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +374,12 @@
 /* Begin PBXTargetDependency section */
 		684CDE5E271DAD79008FB8F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 684CDE42271DAD77008FB8F6 /* CamachoLuluLemon */;
+			target = 684CDE42271DAD77008FB8F6 /* LuluLemon */;
 			targetProxy = 684CDE5D271DAD79008FB8F6 /* PBXContainerItemProxy */;
 		};
 		684CDE68271DAD79008FB8F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 684CDE42271DAD77008FB8F6 /* CamachoLuluLemon */;
+			target = 684CDE42271DAD77008FB8F6 /* LuluLemon */;
 			targetProxy = 684CDE67271DAD79008FB8F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -460,7 +544,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -488,7 +572,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -513,7 +597,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamachoLuluLemon.app/CamachoLuluLemon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuluLemon.app/LuluLemon";
 			};
 			name = Debug;
 		};
@@ -538,7 +622,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamachoLuluLemon.app/CamachoLuluLemon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuluLemon.app/LuluLemon";
 			};
 			name = Release;
 		};
@@ -591,7 +675,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		684CDE3E271DAD77008FB8F6 /* Build configuration list for PBXProject "CamachoLuluLemon" */ = {
+		684CDE3E271DAD77008FB8F6 /* Build configuration list for PBXProject "LuluLemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				684CDE6E271DAD79008FB8F6 /* Debug */,
@@ -600,7 +684,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		684CDE70271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "CamachoLuluLemon" */ = {
+		684CDE70271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "LuluLemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				684CDE71271DAD79008FB8F6 /* Debug */,
@@ -609,7 +693,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		684CDE73271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "CamachoLuluLemonTests" */ = {
+		684CDE73271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "LuluLemonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				684CDE74271DAD79008FB8F6 /* Debug */,
@@ -618,7 +702,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		684CDE76271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "CamachoLuluLemonUITests" */ = {
+		684CDE76271DAD79008FB8F6 /* Build configuration list for PBXNativeTarget "LuluLemonUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				684CDE77271DAD79008FB8F6 /* Debug */,
